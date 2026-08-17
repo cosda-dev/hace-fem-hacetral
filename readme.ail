@@ -1,0 +1,28 @@
+---
+header:
+  id: RC://hace.fem.hacetral.readme.v1
+  intent: DECLARE_README
+  status: DRAFT
+  locale: vi-85
+  version: "0.1.0"
+  authority: AS//hace.fem
+  updated_at: "2026-04-07"
+---
+
+# Hacetral (FEM Layer)
+
+## Purpose
+
+Authority DSL compiler + RC binder for TI-Aura orchestration.
+
+## Scope (Phase 0)
+
+- Fn-teleport stub -> Authority DSL
+- DSL validator (strict)
+- RC binder stub
+
+## Non-Goals (Phase 0)
+
+- Full Mistral runtime
+- Network fetch
+- Training/finetune

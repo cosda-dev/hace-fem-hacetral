@@ -1,0 +1,27 @@
+---
+header:
+  id: RC://hace.infra.refine.hacetral.mto_index.schema.v1
+  intent: DECLARE_SCHEMA
+  status: DRAFT
+  locale: vi-85
+  version: "0.1.0"
+  authority: AS//hace.infra.refine
+  updated_at: "2026-03-17"
+---
+
+# MTO Index Schema
+
+## Entry
+
+- id: string
+- offset: u64
+- length: u32
+- dtype: f16 | f32 | bf16 | i8 | u8
+- device: cpu | gpu | npu
+
+## Notes
+
+- Entries are deterministic and ordered.
+- Offsets must be aligned to shard boundary.
+---
+**Status:** DRAFT

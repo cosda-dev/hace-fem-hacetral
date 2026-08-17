@@ -1,0 +1,42 @@
+---
+header:
+  id: RC://hace.infra.refine.hacetral.soul_manifest.v1
+  intent: DECLARE_SCHEMA
+  status: DRAFT
+  locale: vi-85
+  version: "0.1.0"
+  authority: AS//hace.infra.refine
+  updated_at: "2026-03-17"
+---
+
+# Hacetral Soul Manifest
+
+## Identity
+
+- soul_id: soul.hacetral.semantic.v1
+- class: sub-expert
+- role: semantic_inference
+
+## IO
+
+input:
+  - text
+  - locale
+
+output:
+  - tokens
+  - embedding
+
+## Authority
+
+- intent_gate: atrino
+- context_gate: aconx
+- weight_gate: avaty
+
+## Runtime
+
+- deterministic: true
+- zero_copy: true
+- authority_aware: true
+---
+**Status:** DRAFT
